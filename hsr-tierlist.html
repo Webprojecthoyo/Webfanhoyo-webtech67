@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HoYoverse Fan Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-image: url('https://64.media.tumblr.com/2a3ba4a523fbcd2472925aa5e8a60b0b/ae57f28a5cb47018-10/s1280x1920/540c47a79611fee3250b06c37d4cad3cf523fe7a.png');
+            background-size: cover;
+            color: white;
+            ;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 90px;
+            color: #d449ff;
+        }
+
+        .header2 {
+            text-align: center;
+            padding: 10px;
+            font-size: 50px;
+            color: #e6afff;
+        }
+
+        .dps {
+            text-align: center;
+            font-size: 70px;
+            color: #ff0000;
+        }
+
+        .sup {
+            text-align: center;
+            font-size: 70px;
+            color: #b329ef;
+        }
+
+        .amp {
+            text-align: center;
+            font-size: 70px;
+            color: #eeff00;
+        }
+
+        .sus {
+            text-align: center;
+            font-size: 70px;
+            color: #00ff0d;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .card {
+            background-color: #2e2e2e;
+            border-radius: 10px;
+            width: 120px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .red-box {
+            background-color: rgba(0, 0, 0, 0.425);
+            border: 5px solid #ff0000;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 1400px;
+        }
+
+        .purple-box {
+            background-color: rgba(0, 0, 0, 0.425);
+            border: 5px solid #bb00ff;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 1400px;
+        }
+
+        .yellow-box {
+            background-color: rgba(0, 0, 0, 0.425);
+            border: 5px solid #fbff00;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 1400px;
+        }
+
+        .green-box {
+            background-color: rgba(0, 0, 0, 0.425);
+            border: 5px solid #00ff08;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 1400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg sticky-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://www.hoyoverse.com/_nuxt/img/logo-light.3def3bc.png" alt="HoYoverse Logo" height="40"
+                    class="me-2">
+
+            </a>
+            <!-- Nav content -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="bi bi-house-door-fill me-1"></i>หน้าแรก</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-controller me-1"></i>เกมทั้งหมด
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark shadow">
+                            <li><a class="dropdown-item" href="honkai-impact.html">Honkai Impact 3rd</a></li>
+                            <li><a class="dropdown-item" href="genshin-impact.html">Genshin Impact</a></li>
+                            <li><a class="dropdown-item" href="star-rail.html">Honkai: Star Rail</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="member.html"><i class="bi bi-envelope-fill me-1"></i>สมาชิก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hsr-tierlist.html"><i class="bi bi-envelope-fill me-1"></i>Tierlist</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="header">Tier list</div>
+    <div class="header2">Memory of Chaos</div>
+    <div class="red-box">
+
+        <div class="dps">DPS</div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>
+                        <p class="text-danger">T0</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/c436390769416892360817acd30369d1/60b4d/aglaea_icon.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/15a11812e1b319d14294a16de73d0950/60b4d/castorice_icon.webp"
+                                alt="Character 2">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/08ae08ed038722afc02a3e96b43cdf21/60b4d/mydei_icon.webp"
+                                alt="Character 2">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/6dfd54dc3b1dc2330ad7f12da91c2c7a/60b4d/herta_icon.webp"
+                                alt="Character 2">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T0.5</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/dfb18cf34a31662aa1393c25266ed749/60b4d/47_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/895b563f9ba12e6e80414bbfcc7b5423/60b4d/rappa_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+
+                    <h2>
+                        <p class="text-danger">T1</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/b57af11d0edb3f76d9e130bb9611c63b/60b4d/53_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/88d0c3362b57bee21fc63b336a5a4d34/60b4d/fei_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/39bcd42f98f9fa99f53d18d1aa88865a/60b4d/54_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/23b51180bbbc53d0cebbbc3e192468b6/60b4d/22_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/a4e021ab30703829c614fbb302e04961/60b4d/yunli_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+
+                    <h2>
+                        <p class="text-danger">T1.5</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/26f302952d6728c2b270c9160566e614/60b4d/44_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/4604f205c9f9e6cf4a1d8b90943b8ed6/60b4d/34_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h2>
+                        <p class="text-danger">T2</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/6f3ad2228d4d02953475c5452230ef63/60b4d/45_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/f2663c739baa73864052b7c8daff327b/60b4d/28_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/a3d2d3e7db3d202b575b6fa1d95baf2c/60b4d/18_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/f321ebceb88e9b1f2f0cff4861aca551/60b4d/5_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/90e9d33472fcc0b7fbd1251cd0beb6e5/60b4d/35_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/5eaaf9ec3518805762b5f5a69091d86c/60b4d/7_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T3</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/0434369b1146936d32c51d5f265d17dc/60b4d/26_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/7bf27624888af02b16ed1ad2fdec10f2/60b4d/13_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T4</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/ce5be2a99d02f129514fd55e5db8f1a7/60b4d/33_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/255178791ab42f44cb633b15df66c30f/60b4d/45_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T5</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/be47706d98abd13b49d629e53540c269/60b4d/9_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/857b2b1906680674db70981176f31474/60b4d/4_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/fb5d610b2d0eb7b35b461f4ae5166bca/60b4d/20_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/1c101774bd4bc4d684a0c206a9705a31/60b4d/48_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/fb77ae92a3803222046cc60021e7c62d/60b4d/27_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/0fe244adf41a88f67ba67ef2058d7ee1/60b4d/phys_mc_icon.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/15b2a8be678745987353625378ee8dba/60b4d/23_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="purple-box">
+        <div class="sup">SUPPORT DPS</div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>
+                        <p class="text-danger">T0</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/7b963dc642746724b9829264e6d7a7c1/60b4d/tribbie_icon.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+
+                    <h2>
+                        <p class="text-danger">T0.5</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/6f3ad2228d4d02953475c5452230ef63/60b4d/45_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/725a17892b5b1c7803f5a3d4b16004d5/60b4d/jade_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+
+                    <h2>
+                        <p class="text-danger">T1</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/183866486154f984ec92b8eedf87d7c6/60b4d/11_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/e023b80838d8304b3dfbb7622e1a00ab/60b4d/m7alt_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/a0516274fafc8275ef10cbf994bf7508/60b4d/14_sm.webp" 
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/0ab4d7f7d2a2e2afc7c5979531904fe1/60b4d/38_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-6">
+                    <h2>
+                        <p class="text-danger">T1.5</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/f3045047e4708b372aff23fe67fe63d7/60b4d/46_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/0d7e9553d9333f9636c40150e775be0e/60b4d/moze_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T4</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/0b758a75ced25955b92c9f055b71c87f/60b4d/19_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/b24ce106a4a283e6cf1a077413fbf9d0/60b4d/6_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="yellow-box">
+        <div class="amp">AMPLIFIER</div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>
+                        <p class="text-danger">T0</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/887bd7ed4c8537a52cd285d35931ab4d/60b4d/52_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/65dbb6e0baea584ec9c03a440009a395/60b4d/sunday_icon.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/89433cb3a3f387d503ca8eb297d512df/60b4d/rem_mc_icon.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T0.5</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/e9265d5cf3d38565131b78e7507f1455/60b4d/jia_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/ab077ecba896b3a6d406c1c170a7a471/60b4d/43_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/57005d1fdb1cdb033a97f0dcd2fb71bc/60b4d/ting_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T1</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/b8f7e6d5e067908eea06f4286a3381fa/60b4d/17_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/c52297074e0c2fff0184fe534ac31617/60b4d/47_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/286541431fc0e4242b16eb307e2a71b0/60b4d/img_mc_icon.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T1.5</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/3c0e87556bcf541135c909a18f87ec6a/60b4d/12_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/03bcec36a01c78f33767b7098f6fa1f0/60b4d/25_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h2>
+                        <p class="text-danger">T2</p>
+                    </h2>
+                    <div class="card">
+                        <img src="https://www.prydwen.gg/static/46b350599121f6a83272a0635061d071/60b4d/8_sm.webp"
+                            alt="Character 1">
+                    </div>
+                    <h2>
+                        <p class="text-danger">T3</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/cae9b5e5ada7da3d4432d0e1d01dbf4d/60b4d/10_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/07509883d6b64f8a05a31f0b27f5367e/60b4d/39_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T4</p>
+                    </h2>
+                    <div class="card">
+                        <img src="https://www.prydwen.gg/static/a4e55e309e35bc1f4d5ed3808c8dcf51/60b4d/42_sm.webp"
+                            alt="Character 1">
+                    </div>
+                    <h2>
+                        <p class="text-danger">T5</p>
+                    </h2>
+                    <div class="card">
+                        <img src="https://www.prydwen.gg/static/f64318898539865f4a119bb65074bf3d/60b4d/32_sm.webp"
+                            alt="Character 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="green-box">
+        <div class="sus">SUSTAIN</div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>
+                        <p class="text-danger">T0</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/dcca4d5456bea16990c25fe298a80e41/60b4d/50_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/35eddc3b09b3d2c610af2013992e732f/60b4d/40.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/7c0a3ad50fdd12ac0e4d222c45eae8a9/60b4d/lingsha_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T0.5</p>
+                    </h2>
+                    <div class="card">01
+                        <img src="https://www.prydwen.gg/static/014e5fd9e1557e4dbef87ae673e12116/60b4d/51_sm.webp"
+                            alt="Character 1">
+                    </div>
+                    <h2>
+                        <p class="text-danger">T1</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/e454e011effe543ecd5f2706541c8cbb/60b4d/29_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/3db1e95f0be0c78a233f851614ff4620/60b4d/21_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h2>
+                        <p class="text-danger">T2</p>
+                    </h2>
+                    <div class="card">
+                        <img src="https://www.prydwen.gg/static/d7966d5a139339f40b379cffd4d13cf8/60b4d/24_sm.webp"
+                            alt="Character 1">
+                    </div>
+                    <h2>
+                        <p class="text-danger">T3</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/cff01461a4e4266e9b213e4d73c6c5c3/60b4d/15_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/033124afa0122cd8b0ae20b533140ec5/60b4d/35_sm.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                    <h2>
+                        <p class="text-danger">T5</p>
+                    </h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/63e84a0b75c737e0499f63f57b48c4d9/60b4d/3_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/9dcedbe8b82ddc53e6392b76750a2225/60b4d/16_sm.webp"
+                                alt="Character 1">
+                        </div>
+                        <div class="card">
+                            <img src="https://www.prydwen.gg/static/07525d7cc303828938376541b58c95e2/60b4d/fire_mc_icon.webp"
+                                alt="Character 1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <h6>credit:https://www.prydwen.gg/star-rail/tier-list/</h6>
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white-50 py-4 shadow-lg border-top border-secondary">
+        <div class="container">
+            <p class="mb-1">“Tech Otaku Save The World”</p>
+            <p class="mb-0">&copy; Created By WelcometoSoulsociety Group</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

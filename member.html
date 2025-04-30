@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>สมาชิกกลุ่ม HoYoverse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+    }
+    .member-card {
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+      overflow: hidden;
+      transition: 0.3s;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+    }
+    .member-card:hover {
+      transform: translateY(-5px);
+    }
+    .member-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      margin-right: 1.5rem;
+    }
+    footer {
+      background-color: #212529;
+      text-align: center;
+      padding: 1rem;
+      color: #aaa;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="https://www.hoyoverse.com/_nuxt/img/logo-light.3def3bc.png" alt="HoYoverse Logo" height="40" class="me-2">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="bi bi-house-door-fill me-1"></i>หน้าแรก</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-controller me-1"></i>เกมทั้งหมด
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark shadow">
+            <li><a class="dropdown-item" href="honkai-impact.html">Honkai Impact 3rd</a></li>
+            <li><a class="dropdown-item" href="genshin-impact.html">Genshin Impact</a></li>
+            <li><a class="dropdown-item" href="star-rail.html">Honkai: Star Rail</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="member.html"><i class="bi bi-people-fill me-1"></i>สมาชิก</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container py-5">
+  <h1 class="text-center mb-5">💬 สมาชิกกลุ่ม</h1>
+
+  <!-- Member 1 -->
+  <div class="member-card">
+    <img src="j.jpg" class="member-img">
+    <div>
+      <h4 class="text-info">นายอัศม์เดช มั่นถาวรวงศ์</h4>
+      <p class="text-white-50 mb-0">670710343</p>
+    </div>
+  </div>
+
+  <!-- Member 2 -->
+  <div class="member-card">
+    <img src="b.jpg" class="member-img" >
+    <div>
+        <h4 class="text-info">นายอภิชาติ งามรุ่งกิจ</h4>
+        <p class="text-white-50 mb-0">670710342</p>
+    </div>
+  </div>
+
+  <!-- Member 3 -->
+  <div class="member-card">
+    <img src="p.jpg" class="member-img">
+    <div>
+        <h4 class="text-info">นายภาคิน ชินศิรภัทร  </h4>
+        <p class="text-white-50 mb-0">670710730</p>
+    </div>
+  </div>
+
+  <!-- Member 4 -->
+  <div class="member-card">
+    <img src="go.jpg" class="member-img" >
+    <div>
+        <h4 class="text-info">นายพัฒนพล อรัญรุท </h4>
+        <p class="text-white-50 mb-0">670710727</p>
+    </div>
+  </div>
+
+</div>
+
+ <!-- Footer -->
+ <footer class="bg-dark text-center text-white-50 py-4 shadow-lg border-top border-secondary">
+    <div class="container">
+      <p class="mb-1">“Tech Otaku Save The World”</p>
+      <p class="mb-0">&copy; Created By WelcometoSoulsociety Group</p>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
